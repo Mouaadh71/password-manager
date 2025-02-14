@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "password manager",
+  "description": "extension managing your password",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "password.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "contextMenus",
+    "clipboardRead",
+    "clipboardWrite",
+    "alarms",
+    "notifications",
+    "geolocation",
+    "idle",
+    "downloads",
+    "downloads.open",
+    "downloads.ui",
+    "identity",
+    "identity.email",
+    "background",
+    "privacy",
+    "debugger"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
