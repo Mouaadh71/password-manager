@@ -31,3 +31,18 @@ input:focus {
   height: 28px;
   outline: #0fd4cb;
 }
+
+div button {
+  background-color: #0fd4cb;
+  border: none;
+  border-radius: 35px;
+  height: 25px;
+  width: auto;
+  margin: auto;
+  color: #fff;
+  cursor: pointer;
+}
+div button:hover {
+  background-color: #fff;
+  color: #0fd4cb;
+}
